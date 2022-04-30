@@ -1,0 +1,14 @@
+GET http://localhost:3001/
+
+###
+
+DELETE http://localhost:3001/6266d51fcda97b9cd8d33e02
+
+###
+POST http://localhost:3001/
+content-type: application/json
+
+{
+    "name": "Make breakfast at 7AM",
+    "completed": true
+}
